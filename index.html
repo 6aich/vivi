@@ -99,7 +99,7 @@
             font-size: 18px;
             border: none;
             border-radius: 8px;
-            background: darkgreen;
+            background: black;
             color: white;
             cursor: pointer;
         }
@@ -163,6 +163,7 @@
     </div>
 
     <button id="darkBtn">Dark Mode</button>
+    <button id="darkBtn">Light Mode</button>
     <div class="logo">Vivaan</div>
 
     <!-- WELCOME SECTION -->
@@ -261,12 +262,24 @@ const darkBtn = document.getElementById("darkBtn");
 darkBtn.addEventListener("click", () => {
     if(document.body.style.backgroundColor === "black"){
         document.body.style.backgroundColor = "white";
-        document.body.style.color = "black";
+        document.text.style.color = "black";
     } else {
         document.body.style.backgroundColor = "black";
-        document.text.style.color = "white";
+        document.body.style.color = "white";
+    }
+});        
+const lightBtn = document.getElementById("lightBtn");
+lightBtn.addEventListener("click", () => {
+    if(document.body.style.backgroundColor === "white"){
+        document.body.style.backgroundColor = "white";
+        document.text.style.color = "black";
+    } else {
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "black";
     }
 });
+
+
     </script>
 
 </body>
