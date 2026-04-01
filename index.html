@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaan</title>
+    <style>
+        /* BODY & GENERAL STYLING */
+        body {
+            background-color: yellowgreen;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 20px 20px 20px;
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+
+         p {
+            margin: 20px 0;
+            color: white;
+        }
+
+        
+        h1 {
+         font-size: 3em;
+         margin-bottom: 20px;
+       background: linear-gradient(45deg, red, orange, yellow, yellowgreen, lightgreen, aqua, indigo, violet, pink, hotpink, darkblue, lightblue, darkgreen, gold);
+         background-size: 200% 200%;
+         color: transparent;
+       -webkit-text-fill-color: transparent;
+        animation: rainbow 5s linear infinite;
+            }
+    
+            @keyframes rainbow {
+                0% { background-position: 0% 50%; }
+                100% { background-position: 100% 50%; }
+}
+
+@keyframes discoGlow {
+    0% { text-shadow: 0 0 5px red; }
+    25% { text-shadow: 0 0 15px orange; }
+    50% { text-shadow: 0 0 25px yellow; }
+    75% { text-shadow: 0 0 15px green; }
+    100% { text-shadow: 0 0 5px red; }
+}
+
+#Disco {
+    animation: discoGlow 1s infinite alternate;
+}
+        /* LOGO */
+        .logo {
+            font-size: 3em;
+            font-weight: bold;
+            color: red;
+            text-shadow: 2px 2px 5px yellowgreen;
+            margin-bottom: 20px;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: darkgreen;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+        }
+
+        /* INPUT BOXES */
+        .box {
+            margin: 15px 0;
+        }
+
+        input {
+            padding: 10px;
+            width: 220px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background: darkgreen;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: green;
+        }
+
+        /* IFRAME & IMAGE */
+        iframe {
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        img {
+            border: 14px solid brown;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* 💖 HEARTS */
+.emoji{
+    position:fixed;
+    bottom:-20px;
+    font-size:20px;
+    animation: floatUp 5s linear infinite;
+}
+@keyframes floatUp{
+    0%{transform:translateY(0);}
+    100%{transform:translateY(-100vh);}
+}
+
+.soldier{
+    position:fixed;
+    bottom:-20px;
+    font-size:20px;
+    animation: floatUp 5s linear infinite;
+    background-color: darkgreen;
+}
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="#Vivaan">Vivaan</a>
+        <a href="#Friend">Friends</a>
+        <a href="#Music">Music</a>
+        <a href="#Contact">Contact</a>
+        <a href="#story">Story</a>
+         <a href="#Disco">Disco!</a>
+         <a href="#soldier">WarSymbol</a>
+         <a href="#Khaleesi">Khaleesi</a>
+    </div>
+
+    <!-- LOGO -->
+    <div class="logo">Vivaan</div>
+
+    <!-- WELCOME SECTION -->
+    <h1 id="Vivaan">Welcome to Vivaan!</h1>
+    <p>This is a simple webpage for Vivaan.</p>
+
+    <div class="box">
+        <input type="email" placeholder="Email">
+    </div>
+
+    <div class="box">
+        <input type="password" placeholder="Password">
+    </div>
+
+    <div class="box">
+        <input type="text" placeholder="Username">
+    </div>
+
+    <!-- MUSIC SECTION -->
+    <h2 id="Music">Vivaan likes this song: Guns & Roses</h2>
+
+    <!--Story-->
+    <div id="story">Vivi & Aayush</div>
+    <h1> Vivi & Aayush</h1>
+
+    <h2> Chapter One</h2>
+    <p> Vivi was playing with his boring toys.'These toys are the worst', he thought.'if only i can go to Aayush's house. 'It's so fun'
+        "Momy, can I go to Aayush's house", called Vivi.
+        "Ok Vivi"
+        "Ok momy, I'm going", said Vivi as he got his bike out.</p>
+     <p>Vivi humed as he was riding to Towamba Way.It was a pleasent ride.With the birds chirping and nature as beautiful as can be, it was almost as if the world was bent to Vivi's will.
+     </p>
+     <p> At last, Vivi reached Aayush's house.He knocked on the door, simply expecting Aayush to open it immediately </p>
+
+    <!-- FRIEND SECTION -->
+    <h1 id="Friend">Vivaan's Alien Friend</h1>
+    <p>"Which brings us to the next section," said Vivi.</p>
+    <img src="IMG_0215.jpg" width="300" alt="Vivaan's alien friend">
+
+    <!--KHALEESI-->
+    <div id="Khaleesi">Khaleesi</div>
+    <h1>Vivaan's newest and best freind of the year...</h1>
+    <h1>Khaleesi!</h1>
+
+    <!--SOLDIER-->
+    <h1>Meet The Soldier Of The Era...</h1>
+    <div id="soldier">🔱</div>
+    <h1>SoldierSymbol</h1>
+
+    <!-- DISCO SECTION -->
+    <h1 id="Disco">Disco Time!</h1>
+    <a href="https://www.youtube.com/watch?v=iPEEHwG1fjo&list=RDiPEEHwG1fjo&index=1">
+    <img alt="true" src="https://i.ytimg.com/vi/iPEEHwG1fjo/hqdefault.jpg" width="400" height="600">
+    </a>
+
+    <script>
+        const disco = document.querySelector("#Disco + iframe");
+        if(disco){
+            disco.src = "https://www.youtube.com/embed/3GwjfUFyY6M?autoplay=1&loop=1&playlist=3GwjfUFyY6M&mute=1";
+        }
+
+setInterval(()=>{
+    let heart = document.createElement("div");
+    heart.className="emoji";
+    heart.innerHTML=["😀","😃","😄","😁","😆","🥹","😅","😂","🤣","🥲","☺️","😊","😇","😉","😌","😗","😙","😚","😋","😛","😜","🤪","🤓","😎","🥸","🤩","😏","🤯","😳","🥵","🥶","😶‍🌫️","😱","😨","😰","🤗","🤭","🫢","🫡","🤫","🫠","🤥","😶","🫥","😐","😑","🫨","😬","🙄","😯","😧","😮","😲","🥱","🫩","😴","🤤","🤐","😵‍💫","😵"][Math.floor(Math.random()*60)];
+    heart.style.left=Math.random()*100+"vw";
+    heart.style.animationDuration = (3+Math.random()*3)+"s";
+    document.body.appendChild(heart);
+
+    setTimeout(()=>heart.remove(),5000);
+},300);
+
+/* 🔊 SOUND */
+function playSound(){
+    document.getElementById("clickSound").play();
+}
+    </script>
+
+</body>
+</html>
