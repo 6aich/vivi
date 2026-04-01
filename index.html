@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivaan</title>
     <style>
         /* BODY & GENERAL STYLING */
         body {
-            background-color: white;
+            background-color:white;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 50px 20px 20px 20px;
@@ -69,7 +70,7 @@
         }
 
         .navbar a {
-            color: white;
+            color:white;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
@@ -115,8 +116,7 @@
         }
 
         img {
-            border: 14px solid brown;
-            border-radius: 10px;
+          
             margin: 20px 0;
         }
 
@@ -133,36 +133,29 @@
 }
 
 .soldier{
-    position:fixed;
+    
     bottom:-20px;
-    font-size:20px;
+    font-size:99999999999999999999999999999999999999999999999999999999999999999px;
     animation: floatUp 5s linear infinite;
-    background-color: black;
+    
     
 }
- .contact{
-     background-color:grey;
-     
- }
     </style>
-    
 </head>
-<body style="background-color: white; color: white;">
+<body>
 
     <!-- NAVBAR -->
     <div class="navbar">
         <a href="#Vivaan">Vivaan</a>
-        <a href="#Friend">Friends</a>
         <a href="#Music">Music</a>
-        <a href="#Contact">Contact</a>
         <a href="#story">Story</a>
          <a href="#Disco">Disco!</a>
          <a href="#soldier">WarSymbol</a>
+         
 
     </div>
 
-    <button id="darkBtn">Dark/Light Mode</button>
-   
+    <!-- LOGO -->
     <div class="logo">Vivaan</div>
 
     <!-- WELCOME SECTION -->
@@ -182,13 +175,15 @@
     </div>
 
     <!-- MUSIC SECTION -->
-    <h2 id="Music">Vivaan likes this song: Guns &amp; Roses</h2>
+    <h2 id="Music">Vivaan likes this song: Guns & Roses</h2>
+    
+   
 
     <!--Story-->
-    <div id="story">Vivi &amp; Aayush</div>
-    <h1> Vivi &amp; Aayush</h1>
+    <div id="story">Vivi & Aayush</div>
+    <h1> Vivi & Aayush</h1>
 
-    <h2> Chapter One</h2>
+    <h2> Chapter One
     <p> Vivi was playing with his boring toys.'These toys are the worst', he thought.'if only i can go to Aayush's house. 'It's so fun'
         "Momy, can I go to Aayush's house", called Vivi.
         "Ok Vivi"
@@ -197,49 +192,27 @@
      </p>
      <p> At last, Vivi reached Aayush's house.He knocked on the door, simply expecting Aayush to open it immediately </p>
 
-    <!-- FRIEND SECTION -->
-    <h1 id="Friend">Vivaan's Alien Friend</h1>
-    <p>"Which brings us to the next section," said Vivi.</p>
-    <h2>Vivaan's BFF is Aayush!</h2>
+    
 
-  <div id="Khaleesi">Khaleesi</div>
-<h1>Vivaan's newest and best freind of the year...</h1>
-<h1>Khaleesi!</h1>
 
-<img src="https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy.gif" width="300">
 
     <!--SOLDIER-->
     <h1>Meet The Soldier Of The Era...</h1>
     <div id="soldier">🔱</div>
-    <h1>SoldierSymbol...!</h1>
+    <h1>SoldierSymbol</h1>
+        
 
     <!-- DISCO SECTION -->
     <h1 id="Disco">Disco Time!</h1>
-    <a href="https://www.youtube.com/watch?v=iPEEHwG1fjo&amp;list=RDiPEEHwG1fjo&amp;index=1">
-    <img alt="true" src="https://i.ytimg.com/vi/iPEEHwG1fjo/hqdefault.jpg" width="400" height="600">
+    <a href="https://www.youtube.com/watch?v=iPEEHwG1fjo&list=RDiPEEHwG1fjo&index=1">
+    <img alt="true" class="ytCoreImageHost ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill ytCoreImageLoaded" style="background-color: transparent;" src="https://i.ytimg.com/vi/iPEEHwG1fjo/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCD_z3IAZ805PkMDQNRBQMqaf2_XQ" width="400" height="600">
     </a>
-    <h1></h1>
-    <h1>
-    </h1>
-    <h1></h1>
-    <!--CONTACT-->
-    <h2>Email</h2>
-    <p>aayush.askani@gmail.com</p>
-    <h2>Address</h2>
-    <p>6 Towaamba Way</p>
-    <h2>Friends</h2>
-    <p>Gurtaj</p>
-    <p>Vivaan</p>
-    <p>Gurfateh</p>
-    <p>Samurgot</p>
-    <p>Viaan</p>
+        
     
-
+    
     <script>
         const disco = document.querySelector("#Disco + iframe");
-        if(disco){
-            disco.src = "https://www.youtube.com/embed/3GwjfUFyY6M?autoplay=1&loop=1&playlist=3GwjfUFyY6M&mute=1";
-        }
+       disco.src = "https://www.youtube.com/embed/3GwjfUFyY6M?autoplay=1&loop=1&playlist=3GwjfUFyY6M&mute=1";
 
 setInterval(()=>{
     let heart = document.createElement("div");
@@ -256,21 +229,7 @@ setInterval(()=>{
 function playSound(){
     document.getElementById("clickSound").play();
 }
-        
-const darkBtn = document.getElementById("darkBtn");
-darkBtn.addEventListener("click", () => {
-    if(document.body.style.backgroundColor === "black"){
-        document.body.style.backgroundColor = "white";
-        document.text.style.color = "black";
-    } else {
-        document.body.style.backgroundColor = "black";
-        document.body.style.color = "white";
-    }
-}); 
-
-
-
     </script>
-     
+
 </body>
-</html> 
+</html>
